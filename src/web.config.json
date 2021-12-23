@@ -1,0 +1,43 @@
+{
+  "dbconfig": {
+    "host": "mongodb://localhost",
+    "port": 27017,
+    "database": "ecommerce",
+    "user": "SYSDBA",
+    "password": "masterkey",
+    "lowercase_keys": true,
+    "role": null,
+    "pageSize": 4096
+  },
+  "emailconfig": {
+    "host": "smtp.gmail.com",
+    "port": 587,
+    "email": "ecorpgame@gmail.com",
+    "password": "01699831879"
+  },
+  "serverconfig": {
+    "port": 3010
+  },
+  "token": {
+    "secret": "supersecret",
+    "refreshTokenSecret": "some-s3cret-refre2h-token",
+    "tokenLife": 900,
+    "refreshTokenLife": 86400
+  },
+  "facebookAuth": {
+    "clientID": "182734854751xxxx",
+    "clientSecret": "7e7b945a5df7c7da047ee5577058xxxx",
+    "callbackURL": "http://localhost:8080/auth/facebook/callback"
+  },
+  "googleAuth": {
+    "clientID": "126471281830-131792rgp73hqb5l0sjm4ari3lj00mle.apps.googleusercontent.com",
+    "clientSecret": "j27adeO9-h0P01qftKwhgPqn",
+    "callbackURL": "http://localhost:3010/auth/google/callback"
+  },
+  "roles": {
+    "user": "customer",
+    "staff": "staff",
+    "manager": "manager",
+    "admin": "admin"
+  }
+}

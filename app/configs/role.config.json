@@ -1,0 +1,6 @@
+{
+    "user": "customer",
+    "staff": "staff",
+    "manager": "manager",
+    "admin": "admin"
+}
